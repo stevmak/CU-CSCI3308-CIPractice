@@ -1,5 +1,5 @@
 language: c
 sudo: false
 install:
-    make get-deps
+    make dep
 script: make test
