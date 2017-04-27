@@ -2,6 +2,5 @@ language: c
 sudo:
     required
 install:
-    make dep
     sudo apt-get install check
 script: make test
